@@ -1,0 +1,31 @@
+AUDIO DEVICE CONFIG:
+    # 入力デバイス名（厳密でなくても良い）
+    # INPUT DEVICE NAME: "MacBook Airのマイク"
+    INPUT DEVICE NAME: "Yamaha AG06MK2"
+    # 出力デバイス名（厳密でなくても良い）    
+    # OUTPUT DEVICE NAME: "MacBook Airのスピーカー"
+    OUTPUT DEVICE NAME: "外部ヘッドフォン"
+    
+    # 入力デバイスのチャンネル数
+    INPUT CHANNELS: 2
+    # 出力デバイスのチャンネル数
+    OUTPUT CHANNELS: 1
+
+    # サンプリングレート
+    SAMPLE RATE: 48000
+    # サンプル幅（バイト数）
+    SAMPLE WIDTH: 2
+    # ブロックサイズ（小さい方が低遅延）
+    BLOCK SIZE: 48
+
+DELAY CONFIG:
+    # ターゲットチャンネル（入力の中のどのチャネルを遅延させるか）
+    TARGET CHANNEL: 1
+    # 遅延時間（秒）
+    DELAY IN SECONDS: 1.0
+    
+RECORDING CONFIG:
+    # ユーザ音声のチャネル
+    USER CHANNEL: 0
+    # 出力ディレクトリ
+    OUTPUT DIR: "../data"
